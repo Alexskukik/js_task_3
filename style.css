@@ -1,0 +1,453 @@
+body{
+  margin:0%;
+  background: url(bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-width: 500px;
+}
+
+.bg{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 180vw;
+}
+
+header{
+  position:relative;
+  top: -17%;
+  left:-1.5%;
+  width: 50%;
+  height: 36%;
+  background: url(head.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.hText{
+  position: absolute;
+  top: 47%;
+  left: 80%;
+  display: flex;
+  display: inline;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  min-width: 50%; 
+  max-height: 50%;
+}
+
+.hSmallText{
+  font-size: 1vw;
+}
+
+.hBigText{
+  font-size: 1.4vw;
+}
+
+.content{
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  top: 10vw;
+  left: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.birthday{
+  position: absolute;
+  width: 100%;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.friend{
+  position: absolute;
+  width: 30vw;
+  height: 5vw;
+  background: white;
+  border-radius: 40vw;
+  display: flex;
+  align-items: center;
+
+}
+
+.friendsPhoto{
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  background:black;
+  border-radius: 4vw;
+  left: 2%;
+  background: url(bPhoto.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.friendsText{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+}
+
+.bBigText{
+  position: relative;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  width: 100%;
+  font-size: 1.5vw;
+  left: 0%;
+  text-align: center;
+  font-size: 3.5vw;
+  color:rgb(247, 202, 0);
+}
+
+.bText{
+  position: relative;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  width: 100%;
+  left: 0%;
+  text-align: center;
+  font-size: 1.25vw;
+  color:rgb(247, 202, 0);
+  color: white;
+}
+
+.btnBuy{
+  position: relative;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  left: 10vw;
+  width: 25vw;
+  height: 4vw;
+  border-radius: 40vw;
+  color: white;
+  background: rgb(255, 174, 0);
+  border:0;
+  font-size: 1.5vw;
+  display: block;
+}
+
+.birthdayText2{
+  position: relative;
+  top: 5vw;
+}
+
+.getCertificate{
+  position: absolute;
+  top: 27vw;
+  height: 25vw;
+  width: 50vw;
+}
+
+.getCertificateTitle
+{
+  font-size: 2.5vw;
+  text-align: center;
+  color:rgb(247, 202, 0);
+  position: relative;
+  height: 8vw;
+  width: 50vw;
+  top: 1vw;
+}
+
+.getCertificateItems
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1vw;
+  height: 15vw;
+  width: 50vw;
+}
+
+.getCertificateItem
+{
+  height: 15vw;
+  width: 11vw;
+}
+
+.getCertificateItemIcon
+{
+  height: 11vw;
+  width: 11vw;
+}
+
+.getCertificateItemIcon.icon1
+{
+  background: url(1.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  height: 11vw;
+  width: 11vw;
+}
+
+.getCertificateItemIcon.icon2
+{
+  background: url(2.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.getCertificateItemIcon.icon3
+{
+  background: url(3.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.getCertificateItemIcon.icon4
+{
+  background: url(4.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.getCertificateItemLabel
+{
+  height: 4vw;
+  font-size: 0.9vw;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.yourCertificate{
+  position: absolute;
+  top: 55vw;
+  height: 41vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.yourCertificateTitle{
+  height: 6vw;
+  width: 40vw;
+  color: white;
+  font-size: 3vw;
+}
+
+.yourCertificateImage{
+  background: url(открытка.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  height: 24vw;
+  width: 40vw;
+}
+
+.yourCertificateInfo{
+  color: white;
+  font-size: 1.5vw;
+  height: 3vw;
+  width: 40vw;
+}
+
+.yourCertificateTable{
+  height: 8vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.certTableLine{
+  color: white;
+  font-size: 0.7vw;
+  text-align: left;
+  width: 28vw;
+  margin: auto;
+}
+
+.certTableKey{
+  display: inline-block;
+  width: 11vw;
+}
+
+.certTableValue{
+  display: inline-block;
+  width: 15vw;
+}
+
+.howToBuy{
+  position: absolute;
+  top: 98vw;
+  height: 26vw;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.howToBuyTitle{
+  color: orange;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.howToBuyItems{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.howToBuyItem{
+  height: 15vw;
+  width: 20vw;
+}
+
+.step1{
+  background: url(шаг1.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.step2{
+  background: url(шаг2.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.step3{
+  background: url(шаг3.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.checkFree{
+  position: absolute;
+  top: 126vw;
+  height: 15vw;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.checkFreeTitle{
+  color: orange;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.checkFreeButtons{
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.checkFreeButton{
+  width: 18vw;
+  height: 4vw;
+  border-radius: 40vw;
+  color: white;
+  background: rgb(255, 174, 0);
+  border:0;
+  font-size: 1.5vw;
+}
+
+.buyNow{
+  position: absolute;
+  top: 145vw;
+  height: 20vw;
+  width: 40vw;
+}
+
+.buyNowTitle{
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.buyNowItems{
+  display: flex;
+  justify-content: center;
+}
+
+.buyNowImage{
+  background: url(карта.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  height: 14vw;
+  width: 14vw;
+}
+
+.buyNowButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 12vw;
+}
+
+.buyNowSelect{
+  width: 15vw;
+  height: 3vw;
+  border-radius: 40vw;
+  border:0;
+  font-size: 1.5vw;
+}
+
+.buyNowButton{
+  width: 15vw;
+  height: 3vw;
+  border-radius: 40vw;
+  color: white;
+  background: rgb(0, 174, 255);
+  border:0;
+  font-size: 1.5vw;
+}
+
+.support{
+  position: fixed;
+  top: 15vw;
+  left: 94.6vw;
+  width: 20vw;
+  height: 5vw;
+  z-index: 0;
+  background: url(online.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.supportLabel{
+  z-index: 1;
+}
+
+.support:hover{
+  left: 85vw;
+}
+
+footer{
+  position: absolute;
+  top: 177vw;
+  height: 3vw;
+  width: 40vw;
+  text-align: center;
+  color: white;
+  font-size: 0.5vw;
+}
